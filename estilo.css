@@ -1,0 +1,131 @@
+body {
+    background-color: #e6e6e6;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #fff;
+    height: 70px;;
+}
+
+.esquerda {
+    float: left;
+}
+
+.direita {
+    float: right;
+}
+
+nav img {
+    padding: 10px ;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 0 10px;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+
+#inicio {
+    background-color: blueviolet;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.cabecalho {
+    font-size: 80px;
+}
+
+.linha {
+    display: flex;
+}
+
+.coluna {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.coluna-1 {
+    flex: 1;
+}
+
+.coluna-2 {
+    flex: 2;
+}
+
+.coluna-3 {
+    flex: 3;
+}
+
+.img-responsivo {
+    width: 100%;
+}
+
+.centralizado {
+    align-items: center;
+}
+
+.texto-centralizado {
+    text-align: center;
+}
+
+#conteudo {
+    background-color: #fff;
+}
+
+#conteudo p {
+    text-align: justify;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+
+.galeria li {
+    display: inline-block;
+    margin: 5px;
+    flex: 1;
+    flex-basis: 30%;
+}
+
+#contato {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.form-input {
+    width: 400px;
+    height: 30px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.form-label {
+    margin-left: 10px;
+}
+
+.form-input: :focus {
+    border: 3px
+}
+
+.botao:hover {
+    background-color: black;
+}
+
+.botao {
+    border-radius: 15px;
+    padding: 10px 15px;
+    background-color: blue;
+    color: #fff;
+    margin-left: 5px;
+}
